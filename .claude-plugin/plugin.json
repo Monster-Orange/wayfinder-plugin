@@ -1,0 +1,10 @@
+{
+  "name": "wayfinder",
+  "version": "0.4.0",
+  "description": "Wayfinder retirement-planning Agent Skills (create-plan, create-scenarios, retirement-advising) plus the hosted Wayfinder MCP server — build, stress-test, and get advice on plans (life-paths + Monte Carlo) with live data from your account.",
+  "author": {
+    "name": "Ward Vuillemot",
+    "email": "ward@wardvuillemot.com"
+  },
+  "keywords": ["retirement", "financial-planning", "monte-carlo", "wayfinder"]
+}

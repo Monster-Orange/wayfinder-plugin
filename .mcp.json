@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "wayfinder": {
+      "type": "http",
+      "url": "https://mo-wayfinder.fly.dev/mcp"
+    }
+  }
+}

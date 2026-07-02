@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "wayfinder",
+  "description": "Wayfinder — local-first retirement & life scenario planner. Agent Skills for building, stress-testing, and advising on plans; pairs with the Wayfinder MCP server.",
+  "owner": {
+    "name": "Ward Vuillemot",
+    "email": "ward@wardvuillemot.com"
+  },
+  "plugins": [
+    {
+      "name": "wayfinder",
+      "description": "Agent Skills for Wayfinder: create a plan, add what-if scenarios, and do holistic retirement advising (life-paths + Monte Carlo). Use with the Wayfinder MCP server for live plan data.",
+      "author": {
+        "name": "Ward Vuillemot"
+      },
+      "category": "productivity",
+      "source": "./"
+    }
+  ]
+}
