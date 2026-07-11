@@ -4,6 +4,16 @@ Use [Wayfinder](https://mo-wayfinder.fly.dev) — a retirement & life‑scenario
 
 > Thin, public distribution repo. The engine, app, and infrastructure stay in a separate private repo; only the safe playbooks (skills) and the public connector config are published here.
 
+## Agent setup (one URL)
+
+Point any coding agent (Claude Code, Codex, Cursor, Windsurf, …) at Wayfinder's setup prompt and it will add the Skills + MCP connector into itself — no manual steps:
+
+```
+https://mo-wayfinder.fly.dev/agent-setup/prompt.md
+```
+
+For example, tell your agent: *"Set up Wayfinder in my agent: fetch https://mo-wayfinder.fly.dev/agent-setup/prompt.md and follow it."* The prompt is environment-aware — it always advertises the current MCP endpoint and install commands, so it stays correct as the app moves to its production domain. (The manual steps below do the same thing by hand.)
+
 ## Install in the Claude app (desktop or web)
 
 Plugins need a paid Claude plan (Pro, Max, Team, or Enterprise).
