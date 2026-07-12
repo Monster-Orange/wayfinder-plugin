@@ -2,7 +2,7 @@
   "mcpServers": {
     "wayfinder": {
       "type": "http",
-      "url": "https://mo-wayfinder.fly.dev/mcp"
+      "url": "https://wayfinderfi.com/mcp"
     }
   }
 }
