@@ -1,6 +1,6 @@
 # Wayfinder — Claude plugin
 
-Use [Wayfinder](https://mo-wayfinder.fly.dev) — a retirement & life‑scenario planner — from Claude. This plugin bundles Wayfinder's Agent Skills **and** its hosted MCP connector, so one install gives Claude the skills **and** the live connection to your account (build, stress‑test, and advise on plans — life‑paths + Monte Carlo).
+Use [Wayfinder](https://wayfinderfi.com) — a retirement & life‑scenario planner — from Claude. This plugin bundles Wayfinder's Agent Skills **and** its hosted MCP connector, so one install gives Claude the skills **and** the live connection to your account (build, stress‑test, and advise on plans — life‑paths + Monte Carlo).
 
 > Thin, public distribution repo. The engine, app, and infrastructure stay in a separate private repo; only the safe playbooks (skills) and the public connector config are published here.
 
@@ -32,8 +32,8 @@ Then just ask, e.g. *"Build me a Wayfinder plan for a couple retiring at 60"* or
 
 ## Links
 
-- App: https://mo-wayfinder.fly.dev
-- MCP endpoint: `https://mo-wayfinder.fly.dev/mcp`
+- App: https://wayfinderfi.com
+- MCP endpoint: `https://wayfinderfi.com/mcp`
 - Maintainer: Ward Vuillemot · ward@wardvuillemot.com
 
 *Wayfinder is a planning sandbox — not financial advice.*
