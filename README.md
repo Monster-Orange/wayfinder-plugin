@@ -28,6 +28,27 @@ Plugins need a paid Claude plan (Pro, Max, Team, or Enterprise).
   - `wayfinder-retirement-advising` — holistic advice: stay‑put baseline vs. downsize / relocate / nomad, Monte Carlo, income floor.
 - **MCP connector** — the hosted Wayfinder server (`wayfinder`), so the skills work on your **real** plans.
 
+## Invoking a skill
+
+Claude picks a skill on its own when it fits what you asked. To run one deliberately:
+
+**Claude Code** — type the slash command:
+
+```
+/wayfinder:wayfinder-create-plan
+/wayfinder:wayfinder-create-scenarios
+/wayfinder:wayfinder-retirement-advising
+```
+
+Plugin skills are namespaced `plugin-name:skill-name`, so the plugin name (`wayfinder`) and the skill
+names (`wayfinder-…`) both appear — hence the doubled word. The bare form — `/wayfinder-create-plan`
+— also works unless another command already claims that name, and it is the only form on Claude Code
+before v2.1.216.
+
+**Claude app (desktop or web)** — there is no slash command. Just ask ("build me a Wayfinder plan")
+and Claude loads the right skill. The Wayfinder MCP server also publishes each playbook as a prompt,
+so they appear in the **+** menu.
+
 Then just ask, e.g. *"Build me a Wayfinder plan for a couple retiring at 60"* or *"What should I do — downsize or relocate?"*
 
 ## Links
