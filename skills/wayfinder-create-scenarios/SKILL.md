@@ -27,7 +27,7 @@ Name scenarios for humans: "Higher spend", "Bear market", "Retire at 62", "Live 
 Scenarios live as `params.scenarios`. `update_plan` **merges keys but replaces the `scenarios` array wholesale**, so include every scenario you want kept:
 
 ```
-update_plan(name="Jane & John Doe", changes={"scenarios": [
+update_plan(name="Alex & Jordan", changes={"scenarios": [
   {"name": "Higher spend", "overrides": {"spend_base": 100000}},
   {"name": "Bear market",  "overrides": {"nominal_return": 0.04}},
   {"name": "Work to 70",   "overrides": {"semi_end_age": 70}}
@@ -35,6 +35,8 @@ update_plan(name="Jane & John Doe", changes={"scenarios": [
 ```
 
 To add one, fetch the plan's existing scenarios first (or ask the user) and re-send the full list. To clear them, send `{"scenarios": []}`.
+
+`update_plan` answers the first call with `{"status": "needs_input", "missing": ["confirm"], "review": {...}}` and **writes nothing**. The `review` names the scenarios that would be **deleted** by the replacement (`dropped_items`) — read those out loud, because that is exactly the loss this shape causes silently. Once the user says yes, call again with the same arguments plus `confirm=true`.
 
 ## 4. Show the effect
 After saving, run the **wayfinder-retirement-advising** skill (or at least `plan_monte_carlo` and `compare_lifepaths`) so each scenario's money-left and success rate are visible. Call out which what-ifs break the plan (run dry) and which it survives.
