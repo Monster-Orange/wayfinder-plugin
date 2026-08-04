@@ -1,6 +1,7 @@
 ---
 name: wayfinder-retirement-advising
 description: Give holistic retirement advice from an existing Wayfinder plan — read the stay-put baseline, weigh life-paths (downsize / relocate / nomad), run Monte Carlo, factor scenarios and the income floor, and recommend the single best path honestly. Use when the user wants analysis, advice, or "what should I do?" on a Wayfinder plan. Requires the Wayfinder MCP server.
+version: 1.0.0
 ---
 
 # Retirement advising with Wayfinder

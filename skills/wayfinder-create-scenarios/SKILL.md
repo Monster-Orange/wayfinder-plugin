@@ -1,6 +1,7 @@
 ---
 name: wayfinder-create-scenarios
 description: Add what-if scenarios (e.g. higher spending, weaker returns, retiring later, a market crash) to an existing Wayfinder plan so they're compared against the baseline across every life-path and Monte Carlo. Use when the user wants to explore alternatives or stress a Wayfinder plan. Requires the Wayfinder MCP server.
+version: 1.0.0
 ---
 
 # Add scenarios to a Wayfinder plan

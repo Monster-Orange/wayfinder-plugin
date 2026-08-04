@@ -1,6 +1,7 @@
 ---
 name: wayfinder-create-plan
 description: Create a new Wayfinder retirement/financial plan from a household's situation (people, accounts, home, income, spending). Use when the user wants to set up, start, or build a new Wayfinder plan. Requires the Wayfinder MCP server (tools named mcp__wayfinder__*).
+version: 1.0.0
 ---
 
 # Create a Wayfinder plan
